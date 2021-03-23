@@ -1,0 +1,56 @@
+.Button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: black;
+	margin-right: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+	transition: background .3s;
+}
+
+.Button:focus { outline: none; }
+
+.Button:active { box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3); }
+
+.Button:disabled,
+.Button:disabled:hover {
+	background-color: #9798a2;
+	color: #fff;
+	cursor: not-allowed;
+	border: 1px solid transparent;
+}
+
+.error {
+	background-color: #f0576b;
+	border: 1px solid #f0576b;
+	color: white;
+}
+.error:hover {
+	background-color: #f9e6e8;
+	color: #f0576b;
+	border-color: #f0576b;
+}
+
+.success {
+	background-color: #4aa34f;
+	border: 1px solid #e5fdc9;
+	color: #fff;
+}
+.success:hover {
+	background-color: #f6ffeb;
+	color: #4a9404;
+	border-color: #4a9404;
+}
+
+.primary {
+	background-color: #2884f6;
+	border: 1px solid #ddedff;
+	color:#fff;
+}
+.primary:hover {
+	background-color: #e5f1ff;
+	color:#2884f6;
+	border-color:#2884f6;
+}
